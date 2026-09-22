@@ -26,11 +26,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="munch-user 13 RKQ1.211001.001 V816.0.12.0.ULMMIXM release-keys" \
     BuildFingerprint=Redmi/munch/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys
 
-RISING_MAINTAINER="SenX|センクス & efeisot"
+RISING_MAINTAINER="efeisot"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Snapdragon 870" \
-    RisingMaintainer="SenX|センクス & efeisot"
-RISING_MAINTAINER := SenX|センクス & efeisot
+    RisingMaintainer="efeisot"
+RISING_MAINTAINER := efeisot
 TARGET_ENABLE_BLUR := true
 PRODUCT_NO_CAMERA := false
 WITH_GMS := true
