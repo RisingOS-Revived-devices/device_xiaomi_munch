@@ -309,7 +309,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.boot.hardware.sku=munch
 
 # OMX
-TARGET_SUPPORTS_OMX_SERVICE := false
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
+    libstagefright_softomx.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
